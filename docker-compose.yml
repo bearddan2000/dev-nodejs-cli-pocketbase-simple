@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  nodejs-srv:
+    build: nodejs-srv
+    
+  db:
+    image: elestio/pocketbase
+    volumes:
+        - ./data:/pb_data:rw
+    environment:
+      - ADMIN_PASSWORD=maria

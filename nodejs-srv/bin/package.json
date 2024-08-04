@@ -1,0 +1,7 @@
+{
+  "name": "bin",
+  "version": "0.1.0",
+  "dependencies": {
+    "pocketbase": "0.21.3"
+  }
+}
